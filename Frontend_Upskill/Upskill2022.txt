@@ -1,0 +1,114 @@
+desc admin;
+insert into admin(email,first_name,last_name,password) values("ashwin@gmail.com","Ashwin","Bharambe","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG");
+insert into admin(email,first_name,last_name,password) values("akshay@gmail.com","Akshay","Patil","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG");
+insert into admin(email,first_name,last_name,password) values("gokul@gmail.com","Gokul","Mahajan","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG");
+insert into admin(email,first_name,last_name,password) values("nitesh@gmail.com","Nitesh","Chaudhary","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG");
+insert into admin(email,first_name,last_name,password) values("vaibhav@gmail.com","Vaibhav","Dhake","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG");
+
+desc student;
+insert into student(address,date_of_birth,district,email,first_name,gender,last_name,password,phone,pincode) values("Bhusawal","1997-07-08","Jalgaon","ashwin@gmail.com","Ashwin","Male","Bharambe","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","1212121212","425201");
+insert into student(address,date_of_birth,district,email,first_name,gender,last_name,password,phone,pincode) values("Savada","1997-02-11","Jalgaon","paresh@gmail.com","Paresh","Male","Jawale","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","2323232323","425202");
+insert into student(address,date_of_birth,district,email,first_name,gender,last_name,password,phone,pincode) values("Nashirabad","1997-08-21","Jalgaon","pratik@gmail.com","Pratik","Male","Chaudhary","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","3434343434","425203");
+insert into student(address,date_of_birth,district,email,first_name,gender,last_name,password,phone,pincode) values("Asoda","1997-04-18","Jalgaon","parimal@gmail.com","Parimal","Male","Patil","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","4545454545","425204");
+insert into student(address,date_of_birth,district,email,first_name,gender,last_name,password,phone,pincode) values("Bhadali","1997-07-08","Jalgaon","Khagesh@gmail.com","Khagesh","Male","Mahajan","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","5656565656","425205");
+insert into student(address,date_of_birth,district,email,first_name,gender,last_name,password,phone,pincode) values("Pune","1995-08-014","Pune","devesh@gmail.com","Devesh","Male","Patil","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","6767676767","425206");
+insert into student(address,date_of_birth,district,email,first_name,gender,last_name,password,phone,pincode) values("Dombivali","1991-05-26","Thane","deepak@gmail.com","Deepak","Male","Mahajan","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","7878787878","425207");
+insert into student(address,date_of_birth,district,email,first_name,gender,last_name,password,phone,pincode) values("Aurangabad","1995-06-19","Aurangabad","suraj@gmail.com","Suraj","Male","Bhojane","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","8989898989","425208");
+insert into student(address,date_of_birth,district,email,first_name,gender,last_name,password,phone,pincode) values("Thane","1996-11-28","Thane","rahul@gmail.com","Rahul","Male","Kedare","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","1919191919","425209");
+insert into student(address,date_of_birth,district,email,first_name,gender,last_name,password,phone,pincode) values("Manmad","1992-08-18","Nashik","sachin@gmail.com","Sachin","Male","Joshi","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","2828282828","425206");
+
+desc lecturer;
+insert into lecturer(email,experience,first_name,gender,is_deleted,last_name,password,phone,qualification) values("mayur@gmail.com",5,"Mayur","Male",0,"Bonde","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","1212121212","Electrical Engineer");
+insert into lecturer(email,experience,first_name,gender,is_deleted,last_name,password,phone,qualification) values("ashwin@gmail.com",5,"Ashwin","Male",0,"Bharambe","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","2323232323","Mechanical Engineer");
+insert into lecturer(email,experience,first_name,gender,is_deleted,last_name,password,phone,qualification) values("akshay@gmail.com",5,"Akshay","Male",0,"Fegade","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","3434343434","Chemical Engineer");
+insert into lecturer(email,experience,first_name,gender,is_deleted,last_name,password,phone,qualification) values("shubham@gmail.com",5,"Shubham","Male",0,"Mahajan","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","4545454545","Electrical Engineer");
+insert into lecturer(email,experience,first_name,gender,is_deleted,last_name,password,phone,qualification) values("sachin@gmail.com",5,"Sachin","Male",0,"Mahajan","$2a$12$bzErpOMRKOOEmeaeSxCohOBveB5iaAsqrs5wU5.N5VGOxKCgJfePG","5656565656","Civil Engineer");
+
+desc course_content;
+insert into course_content(course_fee,course_title,duration,prerequisite,syallbus,tags,l_id) values(300,"Core Java","15",null,"Datatypes,If-Else Statement,For Loop,While Loop,Instanceof","Core Java",1);
+insert into course_content(course_fee,course_title,duration,prerequisite,syallbus,tags,l_id) values(600,"Advance Java","30","Core Java","Servelet,Jsp,Hibernate,JPA,Spring Boot","Advance Java",2);
+insert into course_content(course_fee,course_title,duration,prerequisite,syallbus,tags,l_id) values(350,"Dot Net","15",null,"Partial Class,Sealed Class,Extension Method,Dynamic Keyword","Dot Net, C#",3);
+insert into course_content(course_fee,course_title,duration,prerequisite,syallbus,tags,l_id) values(400,"MySQL","15",null,"DDL,DML,DCL,TCL Operations,Normalization,SQL Joins","MySQL",4);
+insert into course_content(course_fee,course_title,duration,prerequisite,syallbus,tags,l_id) values(450,"Javascript","25",null,"var,let and const,Javascript Classes","Javascript",5);
+
+desc videos;
+insert into videos(v_name,video,course_id) values("Basic Datatypes in Java","https://www.youtube.com/watch?v=0MFC_Vw9NxY",1);
+insert into videos(v_name,video,course_id) values("If-Else Statement","https://www.youtube.com/watch?v=HlEomyY4KqI",1);
+insert into videos(v_name,video,course_id) values("For Loop","https://www.youtube.com/watch?v=4nbofvALfKQ",1);
+insert into videos(v_name,video,course_id) values("While Loop","https://www.youtube.com/watch?v=i-h_RTwzIp4",1);
+insert into videos(v_name,video,course_id) values("Instanceof","https://www.youtube.com/watch?v=_YDFIrSkCLg",1);
+insert into videos(v_name,video,course_id) values("Servelet","https://www.youtube.com/watch?v=xve6QEgIR-0&list=PL0zysOflRCel5BSXoslpfDawe8FyyOSZb",2);
+insert into videos(v_name,video,course_id) values("Jsp","https://www.youtube.com/watch?v=x6reS9CfW0U&list=PL0zysOflRCel5BSXoslpfDawe8FyyOSZb&index=27",2);
+insert into videos(v_name,video,course_id) values("Hibernate","https://www.youtube.com/watch?v=ScirB_AxbZo&list=PL0zysOflRCekX8OO7V7pGQ9kxZ28JyJlk&index=2",2);
+insert into videos(v_name,video,course_id) values("JPA","https://www.youtube.com/watch?v=agTUJ4aVJSQ",2);
+insert into videos(v_name,video,course_id) values("Spring Boot","https://www.youtube.com/watch?v=729Pd-ZQ4uA&list=PL0zysOflRCelmjxj-g4jLr3WKraSU_e8q",2);
+insert into videos(v_name,video,course_id) values("Partial Class","https://www.youtube.com/watch?v=Tp7Coqo2alM",3);
+insert into videos(v_name,video,course_id) values("Sealed Class","https://www.youtube.com/watch?v=lNjUn1rMqIo",3);
+insert into videos(v_name,video,course_id) values("Extension Method","https://www.youtube.com/watch?v=HsN0mVFpttU",3);
+insert into videos(v_name,video,course_id) values("Dynamic Keyword","https://www.youtube.com/watch?v=Z1CNOMD8Yuo",3);
+insert into videos(v_name,video,course_id) values("DDL,DML,DCL,TCL Operations","https://www.youtube.com/watch?v=vUj-kUEC_oA",4);
+insert into videos(v_name,video,course_id) values("Normalization","https://www.youtube.com/watch?v=ABwD8IYByfk",4);
+insert into videos(v_name,video,course_id) values("SQL Joins","https://www.youtube.com/watch?v=bLL5NbBEg2I",4);
+insert into videos(v_name,video,course_id) values("var,let and const","https://www.youtube.com/watch?v=--Vh17ocC_s",5);
+insert into videos(v_name,video,course_id) values("Javascript Classes","https://www.youtube.com/watch?v=2ZphE5HcQPQ",5);
+
+desc subscription;
+insert into subscription(sn_amount,sn_duration,sn_plan) values(300,90,"Silver");
+insert into subscription(sn_amount,sn_duration,sn_plan) values(600,180,"Gold");
+insert into subscription(sn_amount,sn_duration,sn_plan) values(1200,365,"Platinum");
+
+desc enrollment;
+insert into enrollment(course_id,s_id) values(1,1);
+insert into enrollment(course_id,s_id) values(1,2);
+insert into enrollment(course_id,s_id) values(2,3);
+insert into enrollment(course_id,s_id) values(2,4);
+insert into enrollment(course_id,s_id) values(3,5);
+insert into enrollment(course_id,s_id) values(3,6);
+insert into enrollment(course_id,s_id) values(4,7);
+insert into enrollment(course_id,s_id) values(4,8);
+insert into enrollment(course_id,s_id) values(5,9);
+insert into enrollment(course_id,s_id) values(5,10);
+
+desc subscribed;
+insert into subscribed(l_id,sn_id) values(1,1);
+insert into subscribed(l_id,sn_id) values(2,2);
+insert into subscribed(l_id,sn_id) values(3,3);
+insert into subscribed(l_id,sn_id) values(4,1);
+insert into subscribed(l_id,sn_id) values(5,2);
+
+desc rating;
+insert into rating(rating,course_id,s_id) values(3.5,1,1);
+insert into rating(rating,course_id,s_id) values(4.5,1,2);
+insert into rating(rating,course_id,s_id) values(3,2,3);
+insert into rating(rating,course_id,s_id) values(5,2,4);
+insert into rating(rating,course_id,s_id) values(4,3,5);
+insert into rating(rating,course_id,s_id) values(4.2,3,6);
+insert into rating(rating,course_id,s_id) values(3.8,4,7);
+insert into rating(rating,course_id,s_id) values(3.3,4,8);
+insert into rating(rating,course_id,s_id) values(4.6,5,9);
+insert into rating(rating,course_id,s_id) values(3.9,5,10);
+
+desc review;
+insert into review(review,course_id,s_id) values("This is nice course.",1,1);
+insert into review(review,course_id,s_id) values("This course covers basics of java.",1,2);
+insert into review(review,course_id,s_id) values("Learned a lot about advance java.",2,3);
+insert into review(review,course_id,s_id) values("Good course.",2,4);
+insert into review(review,course_id,s_id) values("Dot net is amazing.",3,5);
+insert into review(review,course_id,s_id) values("Learnt about extension method.",3,6);
+insert into review(review,course_id,s_id) values("Normalization is hard to understand.",4,7);
+insert into review(review,course_id,s_id) values("MySQL is easy to learn.",4,8);
+insert into review(review,course_id,s_id) values("Nice course.",5,9);
+insert into review(review,course_id,s_id) values("Learnt the difference between var,let,const.",5,10);
+
+desc questionbank;
+insert into questionbank(answer,option1,option2,option3,option4,question,course_id) values("James Gosling","Guido van Rossum","James Gosling","Dennis Ritchie","Bjarne Stroustrup","Who invented Java Programming?",1);
+insert into questionbank(answer,option1,option2,option3,option4,question,course_id) values("JDK","JRE","JIT","JDK","JVM","Which component is used to compile, debug and execute the java programs?",1);
+insert into questionbank(answer,option1,option2,option3,option4,question,course_id) values("Use of pointers","Object-oriented","Use of pointers","Portable","Dynamic and Extensible","Which one of the following is not a Java feature?",1);
+insert into questionbank(answer,option1,option2,option3,option4,question,course_id) values("keyword","identifier & keyword","identifier","keyword","none of the mentioned","Which of these cannot be used for a variable name in Java?",1);
+insert into questionbank(answer,option1,option2,option3,option4,question,course_id) values(".java",".js",".txt",".class",".java","What is the extension of java code files?",1);
+
+insert into questionbank(answer,option1,option2,option3,option4,question,course_id) values("Initialization and Constructor function","Initialization","Constructor function","Initialization and Constructor function","Setup() method","How constructor can be used for a servlet?",2);
+insert into questionbank(answer,option1,option2,option3,option4,question,course_id) values("servlet filter","servlet container","servlet config","servlet context","servlet filter","How is the dynamic interception of requests and responses to transform the information done?",2);
+insert into questionbank(answer,option1,option2,option3,option4,question,course_id) values("Using <%jsp:page> tag","Using <%jsp:page> tag","Using <%jsp:param> tag","Using <%jsp:import> tag","Using <%jsp:useBean> tag","Which tag should be used to pass information from JSP to included JSP?",2);
+insert into questionbank(answer,option1,option2,option3,option4,question,course_id) values("HttpServletRequest","Request","HttpRequest","HttpServletRequest","ServletRequest","request is instance of which one of the following classes?",2);
+insert into questionbank(answer,option1,option2,option3,option4,question,course_id) values("export","include","page","export","useBean","Which is not a directive?",2);

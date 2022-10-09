@@ -1,0 +1,13 @@
+.bg {
+  background: url("/src/styles/Images/login_page_bg.jpg");
+  /* no-repeat; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-left: -130px;
+    margin-right: -130px; */
+  margin: 0;
+  padding: 0;
+  width: 100hh;
+  height: 100vh;
+}

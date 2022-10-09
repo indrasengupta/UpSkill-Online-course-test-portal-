@@ -1,0 +1,12 @@
+.remove-lecturer{
+    border: solid black 3px;
+    height: 500px;
+    width: 800px;
+    text-align: center;
+}
+
+.deropdown{
+    position: fixed;
+    top:0px;
+    right:0px;
+}

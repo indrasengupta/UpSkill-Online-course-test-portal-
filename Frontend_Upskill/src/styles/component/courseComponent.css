@@ -1,0 +1,79 @@
+.course-component {
+
+  height: 90px;
+
+  width: 500px;
+
+  margin-top: 20px;
+
+  margin-left: 350px;
+
+  border-width: 2px;
+
+ 
+
+}
+
+.container {
+
+  background-color: white;
+
+  height: 80px;
+
+  border: solid  #2b6777 2px;
+
+  margin-bottom: 10px;
+
+}
+
+.col {
+
+  border-color: red;
+
+  margin: 10px;
+
+  padding-left: 10px;
+
+  text-align: center;
+
+}
+
+
+
+.lec {
+
+  font-weight: bold;
+
+  color: green;
+
+}
+
+
+
+.col-md-8 {
+
+  text-align: center;
+
+  font-weight: bold;
+
+  color: blue;
+
+  margin-top: 10px;
+
+}
+
+
+
+.delete {
+
+  display: inline;
+
+  position: absolute;
+
+  left: 250px;
+
+  width: 100px;
+
+  margin-top: 20px;
+
+}
