@@ -7,20 +7,20 @@ for Backend
   # Set database port
   # Set database password
  
- 3) Update project :  right click on project  --> Maven --> Update Project --> ok
+3) Update project :  right click on project  --> Maven --> Update Project --> ok
 
 4) After imported the project Run as "spring boot app"
 
 
 
 
-===================================================================================
+============================================================================
 for frontend
 
 if react project is ready   ----> go to src folder and on terminal  give command "npm install"
 ten ----> give command "npm start"
 
-===================================================================================
+=============================================================================
 # Screenshot
 
 # Home Page
