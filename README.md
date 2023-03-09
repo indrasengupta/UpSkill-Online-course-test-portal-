@@ -11,13 +11,13 @@ Backend
 
 4) After imported the project Run as "spring boot app"
 
-===========================================================================
+============================================================================
 
 Frontend
 * if react project is ready   ----> go to src folder and on terminal  give command "npm install"
 ten ----> give command "npm start"
 
-===========================================================================
+============================================================================
 
 
 # Home
