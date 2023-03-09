@@ -55,6 +55,7 @@ public class Lecturer {
 	
 //	@OneToOne(cascade = CascadeType.ALL, mappedBy = "lecturer")
 //	private Subscribed subscribed;
+	//	private Subscribed subscribed;
 	
 	@JsonManagedReference
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "lecturer")
